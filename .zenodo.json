@@ -1,0 +1,27 @@
+{
+  "upload_type": "publication",
+  "publication_type": "article",
+  "title": "Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality",
+  "creators": [
+    {
+      "name": "Perreault, Michaël",
+      "orcid": "0009-0003-0017-7658"
+    }
+  ],
+  "description": "<p>On a vacuum null cone, a generator that stays expanding within a given normalised affine length moves its conformal 2-metric, a curve in the hyperbolic plane, by less than an explicit sharp constant. We give the closed form, the unique extremal, a sharp whole-cut inequality, and consequences: a sharp patch bound, a gap in a one-loop check, higher dimensions and matter. The archive also contains the Python checks (code/) and a Lean 4 formalisation of the core inequality of Theorem 1 (lean/; drafts in lean/wip/ are not part of the verified claim).</p>",
+  "keywords": [
+    "null cone",
+    "Raychaudhuri equation",
+    "focusing",
+    "hyperbolic plane"
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mik-tf/null-cone-affine-length",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ]
+}

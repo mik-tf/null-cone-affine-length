@@ -1,0 +1,23 @@
+shear_clock_step3.py:83: RuntimeWarning: overflow encountered in exp
+  tau = eps_f*np.trapz(np.exp(t+X), t)
+numpy function_base.py: RuntimeWarning: overflow encountered in add
+  ret = (d * (y[tuple(slice1)] + y[tuple(slice2)]) / 2.0).sum(axis)
+1. cosh d = tr(q0^-1 q1)/2, random pairs:
+   max rel err over 1000 pairs = 6.1e-13
+   diag check: d=1.3 -> eigen ratio 13.463738 vs e^(2d)=13.463738 (quasiconformal K = e^d)
+2. eps=0.1: F(0.1)=0.900172948954 F(12)=330280.38  min second difference = 0.000514 (>0 means convex)
+2. eps=0.001: F(0.1)=0.999126154774 F(12)=59.969301  min second difference = 0.0003287 (>0 means convex)
+2. eps=1.0e-6: F(0.1)=1.00009028051 F(12)=8.4261415  min second difference = 0.0002188 (>0 means convex)
+3. small D (eps=1e-3): delta = F - (1-eps);  delta/D^2  and  delta*ln(1/delta)/D^2  and  D^2/(delta ln(1/delta))
+   D=0.3    delta=0.00129793   delta/D^2=0.0144215  delta*ln(1/delta)/D^2=0.0958594
+   D=0.1    delta=0.000126155  delta/D^2=0.0126155  delta*ln(1/delta)/D^2=0.113262
+   D=0.03   delta=1.00066e-5   delta/D^2=0.0111184  delta*ln(1/delta)/D^2=0.127998
+   D=0.01   delta=1.0044e-6    delta/D^2=0.010044   delta*ln(1/delta)/D^2=0.138719
+   D=0.003  delta=8.1812e-8    delta/D^2=0.00909022 delta*ln(1/delta)/D^2=0.148342
+   D=0.001  delta=8.37032e-9   delta/D^2=0.00837032 delta*ln(1/delta)/D^2=0.155676
+4. whole cut: ubar* >= sqrt(A/4pi) F(<d>_A), random data (eps=1e-3, N generators, random rho_S, random curves)
+   200 random cuts: min ubar*/(sqrt(A/4pi) F(<d>_A)) = 2.681127  (>= 1 required; F by linear interpolation of the exact values, an upper bound on F, so the check is conservative)
+   sharpness: rho_S const, every generator the extremal of length 1.0: ratio -> 1 exactly (u*(y)=rho_S F(D), A=4pi rho^2, ubar*=rho F(D))
+5. D_max(tau) as eps -> 0 at fixed tau (bound needs a cap):
+   tau=1.5: eps=1e-2: 3.74878 (sqrt(4 Lam ln tau)=2.7329); eps=1e-4: 4.70824 (sqrt(4 Lam ln tau)=3.865); eps=1e-8: 6.16611 (sqrt(4 Lam ln tau)=5.4659); eps=1e-16: 8.2998 (sqrt(4 Lam ln tau)=7.7299)
+   tau=3.0: eps=1e-2: 5.73123 (sqrt(4 Lam ln tau)=4.4986); eps=1e-4: 7.44558 (sqrt(4 Lam ln tau)=6.3619); eps=1e-8: 9.92504 (sqrt(4 Lam ln tau)=8.9972); eps=1e-16: 13.4981 (sqrt(4 Lam ln tau)=12.724)

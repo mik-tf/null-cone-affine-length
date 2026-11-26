@@ -1,0 +1,21 @@
+[1a] tr((q^-1 q')^2) = 2 (z1'^2 + e^{2 z1} z2'^2): exact
+[1b] g = diag(1,e^{2 z1}) equals upper half plane (dx^2+dy^2)/y^2 (K=-1): exact
+[1c] (1/2)tr((q^-1 q')^2) = Y'^2+Z'^2-X'^2 on ac-b^2=1: exact (hyperboloid, K=-1)
+[1e] rho=(det q)^(1/4), theta=2 rho'/rho, sigma^2=(1/4)tr((qb^-1 qb')^2); Raychaudhuri <=> rho''=-(1/8)tr(.) rho: exact
+[1d] measure: int s |g_s|^2 ds = int |g_w|^2 dw with w = ln s (chain rule): True
+     Hence Xi(v) = (1/8) int tr(..) dw = (1/4) int |gamma_w|_g^2 dw = E[gamma]/4, g of curvature -1.
+     The paper's own (4.22) states the same with factor 1/4.  Candidate's g=(1/8)tr (K=-4) gives Xi = int |g'|^2 dw: same.
+[2] numerics on 5 random smooth curves (eps=1e-3, 4001 grid pts) and one geodesic:
+  random1    min(Xi-bound)=+6.26e-08  max(bound/Xi)=0.999540  u*=1.327912 >= bound-u*=1.005172: True
+  random2    min(Xi-bound)=+4.04e-08  max(bound/Xi)=0.998773  u*=2.997623 >= bound-u*=1.031768: True
+  random3    min(Xi-bound)=+3.72e-08  max(bound/Xi)=0.999743  u*=1.642086 >= bound-u*=1.031451: True
+  random4    min(Xi-bound)=-4.92e-08  max(bound/Xi)=1.000675  u*=2.825684 >= bound-u*=1.052609: True
+  random5    min(Xi-bound)=-1.39e-08  max(bound/Xi)=1.000170  u*=1.657179 >= bound-u*=1.009150: True
+  geodesic   min(Xi-bound)=-4.99e-15  max(bound/Xi)=1.000000  u*=1.131064 >= bound-u*=1.131064: True
+  semicircle min(Xi-bound)=-8.43e-09  max(bound/Xi)=1.000000  u*=1.131064 >= bound-u*=1.131064: True
+     geodesic equality: max|Xi - d^2/(4L)| = 8.43e-09
+     all inequality checks pass: True
+[3] 1D problem min u*[a] s.t. int a dw = D  (u* uses rho_S=1):
+  D=1.0: constant-speed geodesic u*=1.030481, optimum over speed profiles u*=1.016986, optimum a(first)/a(last)=0.01, CS holds along optimum: True
+  D=3.0: constant-speed geodesic u*=1.321743, optimum over speed profiles u*=1.199306, optimum a(first)/a(last)=0.03, CS holds along optimum: True
+  D=6.0: constant-speed geodesic u*=3.095226, optimum over speed profiles u*=2.343910, optimum a(first)/a(last)=0.06, CS holds along optimum: True

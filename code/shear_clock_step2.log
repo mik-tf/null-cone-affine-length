@@ -1,0 +1,13 @@
+eps = 1e-3.  D | u_min (exact) | u_geo | SLSQP grid optimum (step 1) | quadrature check
+  D= 1  u_min=1.01629583687919  u_geo=1.030455305  grid=1.028316  alpha=0.99901835 beta=728.26146  quad ok: True
+  D= 3  u_min=1.20560097759199  u_geo=1.321706379  grid=1.227536  alpha=0.99918665 beta=52.670763  quad ok: True
+  D= 6  u_min=2.39061817209408  u_geo=3.095116902  grid=2.454592  alpha=0.99962158 beta=9.5274973  quad ok: True
+  D=10  u_min=15.297384358833  u_geo=24.47878949  grid=-  alpha=0.9999523 beta=2.700043  quad ok: True
+Inverse (eps=1e-3): tau -> D_max(tau), versus the geodesic-only value
+  tau=1.01   D_max=0.811894154187  geodesic-speed D=0.5944193  sqrt(4 Lam ln tau)=0.52434512
+  tau=2.0    D_max=5.41420254781  geodesic-speed D=4.7122915  sqrt(4 Lam ln tau)=4.3763414
+  tau=10.0   D_max=9.26914137589  geodesic-speed D=8.5160794  sqrt(4 Lam ln tau)=7.9763887
+  tau=100.0  D_max=12.6534022406  geodesic-speed D=11.944392  sqrt(4 Lam ln tau)=11.280317
+  D=3 extremal: remaining clock 1e-2: Xi = ln F - t = 7.9240635
+  D=3 extremal: remaining clock 1e-4: Xi = ln F - t = 12.528809
+  D=3 extremal: remaining clock 1e-8: Xi = ln F - t = 21.739146

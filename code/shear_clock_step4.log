@@ -1,0 +1,31 @@
+A. eps = 1e-3.  tau | D_max | elementary L_el | ratio L_el/D_max | geodesic bound | Hoelder (D.52a)
+  tau=1.001  D_max=0.367357  L_el=5.26178   L_el/D_max=14.323   geo=0.254045  Hold=63.2772
+  tau=1.01   D_max=0.811894  L_el=5.28538   L_el/D_max=6.5099   geo=0.594419  Hold=63.561
+  tau=1.1    D_max=2.21164   L_el=5.51585   L_el/D_max=2.494    geo=1.7618    Hold=66.3325
+  tau=1.5    D_max=4.2544    L_el=6.44112   L_el/D_max=1.514    geo=3.61217   Hold=77.4597
+  tau=2.0    D_max=5.4142    L_el=7.43756   L_el/D_max=1.3737   geo=4.71229   Hold=89.4427
+  tau=5.0    D_max=7.89635   L_el=11.7598   L_el/D_max=1.4893   geo=7.14286   Hold=132.261
+  tau=10.0   D_max=9.26914   L_el=16.6309   L_el/D_max=1.7942   geo=8.51608   Hold=158.184
+  tau=100.0  D_max=12.6534   L_el=52.5915   L_el/D_max=4.1563   geo=11.9444   Hold=223.681
+  tau=1000.0 D_max=15.2018   L_el=166.309   L_el/D_max=10.94    geo=14.5421   Hold=273.943
+   gain over elementary bound at tau=2, eps=1e-3: 1 - D_max/L_el = 0.272
+B. small excess: eps | D | beta | delta | delta/param | delta/(D^2/(4 ln(1/(eps D^2)))) | delta/(D^2/(8 ln(1/(eps D)))) | delta/implicit-B form
+  eps=1e-1   D=0.2185    beta=1.0e+4 delta=0.00094673  1.00047   0.42413  0.60684  1.0005
+  eps=1e-1   D=0.01105   beta=1.0e+7 delta=1.5679e-6   1.0       0.5808   0.69901  1.0
+  eps=1e-1   D=0.0004806 beta=1.0e+10 delta=2.1896e-9   1.0       0.66682  0.75414  1.0
+  eps=1e-3   D=0.3222    beta=1.0e+4 delta=0.0015115   1.00075   0.5342   0.93648  1.0008
+  eps=1e-3   D=0.01456   beta=1.0e+7 delta=2.2004e-6   1.0       0.63841  0.92538  1.0
+  eps=1e-3   D=0.0005984 beta=1.0e+10 delta=2.8905e-9   1.0       0.70235  0.92541  1.0
+  eps=1e-6   D=0.4605    beta=1.0e+4 delta=0.002205    1.0011    0.63907  1.2136   1.0011
+  eps=1e-6   D=0.01893   beta=1.0e+7 delta=2.8934e-6   1.0       0.70231  1.1484   1.0
+  eps=1e-6   D=0.0007368 beta=1.0e+10 delta=3.5841e-9   1.0       0.74577  1.1106   1.0
+  eps=1e-12  D=0.7368    beta=1.0e+4 delta=0.0035906   1.00179   0.74711  1.4781   1.0018
+  eps=1e-12  D=0.02767   beta=1.0e+7 delta=4.2749e-6   1.0       0.7774   1.3945   1.0
+  eps=1e-12  D=0.001013  beta=1.0e+10 delta=4.9657e-9   1.0       0.80153  1.3362   1.0
+C. existence curve, eps=1e-3, tau=2: Lambda(alpha) from ln(1+lam0)= 7.6014 to 0; target ln(1/eps)= 6.90776
+   alpha=0.9995002499 beta=4.9975e+8 Lambda=7.6014023
+   alpha=0.9995002504 beta=999499.0 Lambda=7.6013819
+   alpha=0.9995007496 beta=998.501 Lambda=7.5878932
+   alpha=0.9995502249 beta=8.9955 Lambda=6.705828
+   alpha=0.9997501249 beta=0.9995 Lambda=3.8002645
+   alpha=0.999950025 beta=0.111056 Lambda=0.89521404
