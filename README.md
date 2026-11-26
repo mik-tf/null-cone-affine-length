@@ -2,7 +2,9 @@
 
 Author: Michaël Perreault
 
-Version 1.0.
+Version 1.0.1.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24572220.svg)](https://doi.org/10.5281/zenodo.24572220)
 
 On a vacuum null cone, a generator that stays expanding within a given normalised affine length moves its conformal 2-metric, a curve in the hyperbolic plane, by less than an explicit sharp constant. The paper gives the closed form, the unique extremal, a sharp whole-cut inequality, and consequences (a sharp patch bound, a gap in a one-loop check, higher dimensions, matter).
 
@@ -16,4 +18,4 @@ Python 3 with mpmath, numpy and scipy; see [code/REPRODUCE.md](code/REPRODUCE.md
 
 ## Cite as
 
-Perreault, M. Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality, version 1.0. https://github.com/mik-tf/null-cone-affine-length (DOI to be added). See [CITATION.cff](CITATION.cff).
+Perreault, M. Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality, version 1.0.1. https://doi.org/10.5281/zenodo.24572220 (concept DOI, all versions). The first release, v1.0, is https://doi.org/10.5281/zenodo.24572221. See [CITATION.cff](CITATION.cff).

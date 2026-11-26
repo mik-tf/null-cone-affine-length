@@ -222,7 +222,7 @@ Christodoulou [Chr08], Klainerman and Rodnianski [KR09] and An and Luk [AL14] us
 
 # Code and data {#p8.code .unnumbered}
 
-The six Python scripts with their logs, the reproduction notes and the Lean 4 formalisation of the core inequality of Theorem 1 are archived at <https://github.com/mik-tf/null-cone-affine-length>; the archived DOI is added at release. `code/REPRODUCE.md` explains how to reproduce each result.
+The six Python scripts with their logs, the reproduction notes and the Lean 4 formalisation of the core inequality of Theorem 1 are archived at <https://github.com/mik-tf/null-cone-affine-length> and on Zenodo, <https://doi.org/10.5281/zenodo.24572220> (concept DOI, all versions). `code/REPRODUCE.md` explains how to reproduce each result.
 
 # Acknowledgements {#p8.ack .unnumbered}
 
