@@ -10,7 +10,7 @@ On a vacuum null cone, a generator that stays expanding within a given normalise
 
 Source: [paper.md](paper.md). Text: CC BY 4.0 ([LICENSE-paper.md](LICENSE-paper.md)). Code in `code/`: MIT ([LICENSE](LICENSE)).
 
-Archive contents: `paper.md` and the PDF; `code/` (six Python scripts and logs, `code/REPRODUCE.md`); `lean/` (Lean 4 with Mathlib: `lean/NullCone/Core.lean`, `lean/README.md`). `lean/` verifies only the core inequality of Theorem 1 (`core_lemma`, `core_strong`, `core_strict`); `lean/wip/` holds unfinished drafts, not built and not part of the verified claim. The `.lake/` build directory is excluded.
+Archive contents: `paper.md` and the PDF; `code/` (six Python scripts and logs, `code/REPRODUCE.md`); `lean/` (Lean 4 with Mathlib: `lean/NullCone/Core.lean`, `lean/README.md`). `lean/` verifies only the core inequality of Theorem 1 (`core_lemma`, `core_strong`, `core_strict`); The unfinished subfolder of `lean/` is not built and not part of the verified claim. The `.lake/` build directory is excluded.
 
 ## Re-run
 
