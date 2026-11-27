@@ -2,7 +2,7 @@
 
 Author: Michaël Perreault
 
-Version 1.1.1.
+Version 1.1.2.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24572220.svg)](https://doi.org/10.5281/zenodo.24572220)
 
@@ -18,4 +18,4 @@ Python 3 with mpmath, numpy and scipy; see [code/REPRODUCE.md](code/REPRODUCE.md
 
 ## Cite as
 
-Perreault, M. Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality, version 1.1.1. https://doi.org/10.5281/zenodo.24572220 (concept DOI, all versions). Version 1.1.0 adds Section 6.2 (the large-clock law with explicit bounds, the needle limit). Version 1.1.0 is https://doi.org/10.5281/zenodo.24575809. The first release, v1.0, is https://doi.org/10.5281/zenodo.24572221. See [CITATION.cff](CITATION.cff).
+Perreault, M. Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality, version 1.1.2. https://doi.org/10.5281/zenodo.24572220 (concept DOI, all versions). Version 1.1.0 adds Section 6.2 (the large-clock law with explicit bounds, the needle limit). Version 1.1.0 is https://doi.org/10.5281/zenodo.24575809. The first release, v1.0, is https://doi.org/10.5281/zenodo.24572221. See [CITATION.cff](CITATION.cff).

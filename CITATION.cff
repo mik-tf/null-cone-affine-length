@@ -6,8 +6,9 @@ authors:
   - family-names: Perreault
     given-names: Michaël
     orcid: "https://orcid.org/0009-0003-0017-7658"
+    affiliation: "Independent researcher"
 doi: "10.5281/zenodo.24572220"
-version: "1.1.1"
+version: "1.1.2"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24575809"
