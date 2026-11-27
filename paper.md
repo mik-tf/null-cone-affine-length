@@ -1,7 +1,7 @@
 ---
 title: "Affine length bounds the conformal excursion on a null cone: a sharp focusing inequality"
 author: "Michaël Perreault"
-date: "2026-11-26"
+date: "2026-11-27"
 format: "article"
 toc: false
 header_footer_policy: "all"
@@ -13,7 +13,7 @@ header_title: "Affine length bounds the conformal excursion"
 
 *Corresponding author: Michaël Perreault, independent researcher, ORCID 0009-0003-0017-7658.*
 
-**Abstract.** A bundle of light rays that keeps expanding can twist the shape of its cross-sections only a bounded amount for a given affine length, and we give the exact bound. Precisely, on a vacuum null cone, let a generator stay expanding from $\varepsilon\rho_S$ to $\rho_S$ (the area density is $\rho^2$), within normalised affine length $\tau\rho_S$. Then its conformal 2-metric, a curve in the hyperbolic plane, moves a hyperbolic distance less than an explicit $D_{\max}(\tau,\varepsilon)$, and this constant is sharp. The affine length is $\rho_S\int e^{\Xi}dv$, where $\Xi$ is a quarter of the curve's energy, as in Chandrasekaran ([arXiv:2611.34924](https://arxiv.org/abs/2611.34924)), whose Appendix D has a non-sharp bound of the same kind. New here, all proved: the closed form of the sharp constant and its unique extremal (speed inversely proportional to the remaining affine length), the small-excess law, the whole-cut inequality $\bar u_*\ge(A/4\pi)^{1/2}F_\varepsilon(\langle d\rangle_A)$, a proof that the logarithmic growth of Chandrasekaran's patch bound is necessary, the extension to dimension $d+2$ (factor $(d/2)^{1/2}$) and to matter, and a gap, with an explicit family, in the one-loop check of its Appendix D.3, not in its finiteness proof. Computed only, and labelled so in the text: the matching large-clock law, which suggests that the prefactor $1/\varepsilon$ of that patch bound is loose by about $9$, $54$ and $370$ at $\varepsilon=0.1$, $0.01$, $0.001$ (for $A^*/A_P$ between $10^3$ and $10^{12}$). At $\varepsilon=10^{-3}$ the sharp bound improves the elementary Raychaudhuri bound by $27$ percent at $\tau=2$ and by a factor $4$ at $\tau=100$ (computed from the closed form).
+**Abstract.** A bundle of light rays that keeps expanding can twist the shape of its cross-sections only a bounded amount for a given affine length, and we give the exact bound. Precisely, on a vacuum null cone, let a generator stay expanding from $\varepsilon\rho_S$ to $\rho_S$ (the area density is $\rho^2$), within normalised affine length $\tau\rho_S$. Then its conformal 2-metric, a curve in the hyperbolic plane, moves a hyperbolic distance less than an explicit $D_{\max}(\tau,\varepsilon)$, and this constant is sharp. The affine length is $\rho_S\int e^{\Xi}dv$, where $\Xi$ is a quarter of the curve's energy, as in Chandrasekaran ([arXiv:2611.34924](https://arxiv.org/abs/2611.34924)), whose Appendix D has a non-sharp bound of the same kind. New here, all proved: the closed form of the sharp constant and its unique extremal (speed inversely proportional to the remaining affine length), the small-excess law, the whole-cut inequality $\bar u_*\ge(A/4\pi)^{1/2}F_\varepsilon(\langle d\rangle_A)$, a proof that the logarithmic growth of Chandrasekaran's patch bound is necessary, the extension to dimension $d+2$ (factor $(d/2)^{1/2}$) and to matter, and a gap, with an explicit family, in the one-loop check of its Appendix D.3, not in its finiteness proof. Proved too, in a new subsection of Section 6, with $\Lambda=\ln(1/\varepsilon)$: the matching large-clock law with explicit two-sided bounds, valid from $\tau=e^3/\varepsilon$, $D_{\max}^2=4\Lambda(\ln\tau+\ln\ln\tau+1-\ln\Lambda)+O(\ln\ln\tau/\ln\tau)$, and its inverse, the needle limit, at fixed $\varepsilon$, $F_\varepsilon(d)=\frac{4\Lambda^2}{e\,d^2}e^{d^2/(4\Lambda)}\bigl(1+O(d^{-2})\bigr)$, so that, relative to the cap's shape, a cross-section reachable within clock $\tau$ is at most as thin as $\exp(-2\sqrt{\Lambda\ln\tau})$ to leading order in the exponent; and that the ratio of the bound (D.52b) to the sharp patch bound tends to $e(1-\varepsilon)/(\varepsilon\Lambda)$ as $A^*/A_P\to\infty$. Computed only, and labelled so in the text: the finite-range values of that ratio, about $9$, $54$ and $370$ at $\varepsilon=0.1$, $0.01$, $0.001$ (for $A^*/A_P$ between $10^3$ and $10^{12}$), against limits $10.6$, $58.4$, $393$. At $\varepsilon=10^{-3}$ the sharp bound improves the elementary Raychaudhuri bound by $27$ percent at $\tau=2$ and by a factor $4$ at $\tau=100$ (computed from the closed form).
 
 **Keywords.** null cone; Raychaudhuri equation; focusing; hyperbolic plane; affine parameter; characteristic initial data.
 
@@ -27,7 +27,7 @@ Contrapositively, a generator whose conformal metric moves farther than $D_{\max
 
 **Prior art and what is new.** The setting and the identity $u_*=\rho_S\int_\varepsilon^1e^{\Xi}dv$ are in Chandrasekaran [Cha26, (3.26) to (3.27)], with $\Xi$ as in (3.26c) and the metric in (4.21b to c). Its Appendix D already bounds a total variation of the conformal metric by the clock: it defines $D(y)=\int_\varepsilon^1[(\partial_v\bar q)_{AB}\partial_v\bar q^{AB}]^{1/2}dv$ in (D.51), equal to $\sqrt2$ times our hyperbolic length $\ell$, and proves by Cauchy-Schwarz and Hölder $D(y)^2\le 8[1-e^{-t\Xi_y(1)}](\varepsilon t)^{-1}\int_\varepsilon^1e^{t\Xi_y}dv$ in (D.52a) for $t\in(0,1]$, with an averaged form (D.52b); (D.53) to (D.54) use convexity of the clock along geodesic interpolation, which overlaps our Lemma 2. They serve another purpose there (small symplectic area of local deformations) and are not sharp.
 
-*New here:* (i) the exact best constant $D_{\max}(\tau,\varepsilon)$ in closed form, with its unique extremal and a proof that it is a supremum not attained (Theorem 1); (ii) the small-excess law (Proposition 2); (iii) the sharp whole-cut inequality with convex $F_\varepsilon$ (Theorem 3), which contains the classical area bound as its case $d=0$ and improves it whenever the excursion is nonzero. *Consequences (Section 6):* a sharp patch bound, for which the logarithmic growth of (D.52b) is proved necessary and the looseness of its prefactor $1/\varepsilon$ is computed (by a factor of about $e/(\varepsilon\ln(1/\varepsilon))$ up to a slowly varying factor, over the range tested); the observation that the clock alone cannot bound the shear energy used in D.3, a gap in a one-loop consistency check and not in the finiteness proof of Section 5.2 of [Cha26]; the extension to every dimension (factor $(d/2)^{1/2}$) and to matter satisfying the null energy condition. *Not new:* the clock identity, the use of convexity along geodesics, and the existence of some length-clock bound.
+*New here:* (i) the exact best constant $D_{\max}(\tau,\varepsilon)$ in closed form, with its unique extremal and a proof that it is a supremum not attained (Theorem 1); (ii) the small-excess law (Proposition 2); (iii) the sharp whole-cut inequality with convex $F_\varepsilon$ (Theorem 3), which contains the classical area bound as its case $d=0$ and improves it whenever the excursion is nonzero; (iv) the large-clock law with explicit two-sided bounds from $\tau=e^3/\varepsilon$ and its second term (Proposition 5), and its inverse, the needle limit of $F_\varepsilon$ (Corollary 6). *Consequences (Section 6):* a sharp patch bound, for which the logarithmic growth of (D.52b) is proved necessary and the large-clock law $\Phi(\tau)\sim4\ln(1/\varepsilon)\ln\tau$ is now proved with its second term; the ratio of (D.52b) to the sharp patch bound tends to $e(1-\varepsilon)/(\varepsilon\ln(1/\varepsilon))$ as the cap is removed (proved), and its finite-range values are computed; the needle limit, the clock needed for a given excursion as the shape becomes a needle, is proved; the observation that the clock alone cannot bound the shear energy used in D.3, a gap in a one-loop consistency check and not in the finiteness proof of Section 5.2 of [Cha26]; the extension to every dimension (factor $(d/2)^{1/2}$) and to matter satisfying the null energy condition. *Not new:* the clock identity, the use of convexity along geodesics, and the existence of some length-clock bound.
 
 Section 2 re-derives [Cha26, (3.26)] in classical terms. Section 3 proves Theorem 1, Section 4 the whole-cut theorem, Section 5 compares with other bounds, Section 6 gives the consequences, Section 7 the checks and related work.
 
@@ -150,7 +150,7 @@ It grows like $\tau^{1/2}$ and does not vanish as $\tau\to1-\varepsilon$.
 | 10 | 9.269 | 16.6 | 1.79 | 158 |
 | 100 | 12.65 | 52.6 | 4.16 | 224 |
 
-Figure 1 shows the three bounds over $\tau$. The sharp bound is below the elementary one for every $\tau$ (as it must be) and the gain is smallest near $\tau=2$ (the elementary bound is $37$ percent above $D_{\max}$ there, $D_{\max}$ is $27$ percent below it); the sharp bound vanishes as $\tau\to1-\varepsilon$ and for large $\tau$ it replaces growth $\tau^{1/2}$ by growth like $\sqrt{4\ln(1/\varepsilon)\ln\tau}$ (lower bound proved in Section 6.1, the matching upper bound computed there). At fixed $\tau$, $D_{\max}\to\infty$ as $\varepsilon\to0$ ($3.75$, $4.71$, $6.17$, $8.30$ at $\tau=1.5$, $\varepsilon=10^{-2},10^{-4},10^{-8},10^{-16}$), so the bound needs the cap. Whether vertex regularity (bounded $|\partial_s\gamma|$ as $s\to0$) gives an $\varepsilon$-uniform bound is open.
+Figure 1 shows the three bounds over $\tau$. The sharp bound is below the elementary one for every $\tau$ (as it must be) and the gain is smallest near $\tau=2$ (the elementary bound is $37$ percent above $D_{\max}$ there, $D_{\max}$ is $27$ percent below it); the sharp bound vanishes as $\tau\to1-\varepsilon$ and for large $\tau$ it replaces growth $\tau^{1/2}$ by growth like $\sqrt{4\ln(1/\varepsilon)\ln\tau}$ (lower bound proved in Section 6.1, the matching upper bound, with its second term, proved in Section 6.2, Proposition 5). At fixed $\tau$, $D_{\max}\to\infty$ as $\varepsilon\to0$ ($3.75$, $4.71$, $6.17$, $8.30$ at $\tau=1.5$, $\varepsilon=10^{-2},10^{-4},10^{-8},10^{-16}$), so the bound needs the cap. Whether vertex regularity (bounded $|\partial_s\gamma|$ as $s\to0$) gives an $\varepsilon$-uniform bound is open.
 
 ![The sharp bound $D_{\max}$, the elementary bound $L_{\rm el}$ and the Appendix D bound (D.52a) over the clock excess $\tau-(1-\varepsilon)$, $\varepsilon=10^{-3}$ (computed from the closed form).](figures/fig1_dmax.pdf){width=75%}
 
@@ -158,7 +158,7 @@ At fixed endpoints the clock minimiser lies on the geodesic: rescaling the speed
 
 # Consequences and extensions {#p8.ext}
 
-This section collects four consequences of Theorem 1. Each is labelled *proved* or *computed*, and where a step rests on a numerical check this is said at the step.
+This section collects five consequences of Theorem 1. Each is labelled *proved* or *computed*, and where a step rests on a numerical check this is said at the step.
 
 ## A sharp patch bound {#p8.patch}
 
@@ -174,11 +174,166 @@ It is sharp at every clock value $x$ with $\hat\Phi(x)=\Phi(x)$: take every gene
 
 The proof does not use concavity of $\Phi$ itself. Numerically $\Phi$ is concave: all second divided differences are negative on a grid of 49 points in $\ln\tau$, for $\varepsilon=10^{-1},10^{-3},10^{-6}$ (computed), so numerically $\hat\Phi=\Phi$ there and the bound reads $2A_P\,D_{\max}((1-\varepsilon)A^*/A_P,\varepsilon)^2$. An analytic proof of concavity is not given here.
 
-*Comparison with (D.52b).* The bound (D.52b) of [Cha26] reads $\int_PD^2dA\le8e(1-\varepsilon)(A_P/\varepsilon)[1+\ln(A^*/A_P)]$. Two statements about large clock, with different status.
+*Comparison with (D.52b).* The bound (D.52b) of [Cha26] reads $\int_PD^2dA\le8e(1-\varepsilon)(A_P/\varepsilon)[1+\ln(A^*/A_P)]$. Two statements about large clock, both proved: the lower half here and the upper half, with the second term, in the next subsection.
 
 *Proved (lower half).* For every $\tau>1$, $\Phi(\tau)\ge4\ln(1/\varepsilon)\ln\tau$. Indeed the constant-speed curve $a\equiv2\sqrt{k-1}$, $k>1$, is admissible, has $X=(k-1)t$, clock $\varepsilon(e^{k\Lambda}-1)/k$ and length $2\Lambda\sqrt{k-1}$. Choose $k$ so that the clock equals $\tau$ (possible: the clock increases continuously in $k$, from $1-\varepsilon$ as $k\to1$ to infinity). Then $\tau=\varepsilon(e^{k\Lambda}-1)/k$. From $e^{k\Lambda}>\tau k/\varepsilon$ one gets $k-1>(\ln\tau+\ln k)/\Lambda>\ln\tau/\Lambda$, so the length squared exceeds $4\Lambda\ln\tau$, and $\Phi\ge$ that by Theorem 1. Hence no bound on $\int_PD^2dA$ can grow more slowly than $A_P\ln(A^*/A_P)$ with this coefficient: the logarithm of (D.52b) is necessary, not an artefact.
 
-*Computed, not proved (upper half).* The ratio of $\Phi$ to $4\ln(1/\varepsilon)\ln\tau$ is $1.26$, $1.18$, $1.12$, $1.08$ at $\tau=10^2,10^4,10^8,10^{16}$ ($\varepsilon=10^{-3}$ only), decreasing slowly toward $1$, while the difference $\Phi-4\ln(1/\varepsilon)\ln\tau$ still grows (from $46$ to $77$ over that range). So the large-clock law $\Phi(\tau)\sim4\ln(1/\varepsilon)\ln\tau$ is a numerical observation over $\tau$ up to $10^{16}$ at one $\varepsilon$, and we have no proof of the upper half. Under that law the prefactor of (D.52b) is the loose part: it comes from bounding the weight $1/v$ on $[\varepsilon,1]$ by $1/\varepsilon$, whereas the computed factor is $\ln(1/\varepsilon)$. For $A^*/A_P$ between $10^3$ and $10^{12}$ the ratio of the bound (D.52b) to the sharp bound is about $9$, $54$ and $370$ at $\varepsilon=0.1$, $0.01$ and $0.001$ (computed: ranges $9.1$ to $9.8$, $53$ to $55$, $369$ to $373$; outside that range it differs, for example $417$ at $A^*/A_P=10$, $\varepsilon=10^{-3}$), and it grows without bound as the cap is removed. This is not a criticism of (D.52b), which was written for another purpose.
+*Proved (upper half), Section 6.2.* For $\tau\ge e^3/\varepsilon$, $\Phi(\tau)>4\ln(1/\varepsilon)(\ln\tau+\ln\ln\tau+1-\ln\ln(1/\varepsilon))$ and $\Phi(\tau)\le$ the same plus an explicit $r_+(\ln\tau)$ (Proposition 5), so $\Phi(\tau)/(4\ln(1/\varepsilon)\ln\tau)\to1$, with relative error of order $\ln\ln\tau/\ln\tau$. The ratio of $\Phi$ to $4\ln(1/\varepsilon)\ln\tau$ is $1.26$, $1.18$, $1.12$, $1.08$ at $\tau=10^2,10^4,10^8,10^{16}$ ($\varepsilon=10^{-3}$ only, computed), decreasing slowly toward $1$, while the difference $\Phi-4\ln(1/\varepsilon)\ln\tau$ still grows (from $46$ to $77$ over that range) as the $\ln\ln\tau$ term of Proposition 5 takes over (the first two values lie below $\tau_0=e^3/\varepsilon$, where Proposition 5 does not apply). Under that law, now proved, the prefactor of (D.52b) is the loose part: it comes from bounding the weight $1/v$ on $[\varepsilon,1]$ by $1/\varepsilon$, whereas the coefficient of the proved law is $\ln(1/\varepsilon)$. The ratio of the bound (D.52b) to the sharp bound tends to $e(1-\varepsilon)/(\varepsilon\ln(1/\varepsilon))$ as $A^*/A_P\to\infty$ (proved, Section 6.2, Lemma 7: the least concave majorant $\hat\Phi$ lies between $\Psi(\ln\tau)$ and $\Psi(\ln\tau)+C$; the limits are $10.6$, $58.4$ and $393$ at $\varepsilon=0.1$, $0.01$ and $0.001$). For $A^*/A_P$ between $10^3$ and $10^{12}$ the ratio is about $9$, $54$ and $370$ at those $\varepsilon$ (computed: ranges $9.1$ to $9.8$, $53$ to $55$, $369$ to $373$; outside that range it differs, for example $417$ at $A^*/A_P=10$, $\varepsilon=10^{-3}$), and it grows without bound as $\varepsilon\to0$. This is not a criticism of (D.52b), which was written for another purpose.
+
+## The large-clock law and the needle limit {#p8.needle}
+
+Section 6.1 states the large-clock law $\Phi(\tau)\sim4\ln(1/\varepsilon)\ln\tau$ with its lower half proved. This subsection proves the upper half with explicit constants, gives the second term, and inverts the law into a statement about $F_\varepsilon$. Each statement is labelled *proved* or *computed*. The script `code/needle_limit.py` carries the numerical checks quoted below (parts F to J of its output).
+
+**Notation.** Fix $\varepsilon\in(0,1)$ and write $\Lambda=\ln(1/\varepsilon)$, $T=\ln\tau$, $\lambda_0=\tau/\varepsilon$. For the solution $(\alpha,\beta)$ of Theorem 1 put
+$$
+u=\ln\frac1{1-\alpha},\qquad \ell_\beta=\ln(1+\beta),\qquad x=u-\Lambda,\qquad m=\Lambda+\ell_\beta ,
+$$
+and
+$$
+\Psi(T)=4\Lambda\bigl(T+\ln T+1-\ln\Lambda\bigr),\qquad R(\tau)=D_{\max}(\tau,\varepsilon)^2-\Psi(\ln\tau).
+$$
+Let $T_0=3+\Lambda$, that is $\tau_0=e^3/\varepsilon$. For $T\ge T_0$ define
+$$
+\bar s=\frac{(\Lambda+T)\bigl(\ln(1+T/\Lambda)+2\varepsilon/\tau\bigr)}{\Lambda+T-1},
+$$
+$$
+r_-(T)=4\Lambda\ln\!\Bigl(1+\frac{\ln\bigl(1+(T-1)/\Lambda\bigr)}{T}\Bigr)+\max\Bigl(0,\ \frac{2\Lambda^2}{(1+\varepsilon/\tau)(T+\bar s)}-\frac{(4+2\Lambda)\Lambda^2}{(T-1)^2}\Bigr),
+$$
+$$
+r_+(T)=\frac{4\Lambda\bar s}{T}+\frac{2\Lambda^2}{T-1}+\frac{\tfrac43\Lambda^3+2\Lambda}{(T-1)^2}+\frac{8\Lambda\varepsilon}{\tau}.
+$$
+Here $\tau=e^T$, so $\varepsilon/\tau=\varepsilon e^{-T}$. Note $r_-(T)>0$.
+
+**Proposition 5 (large clock, proved).** For every $\tau\ge\tau_0=e^3/\varepsilon$,
+$$
+\Psi(\ln\tau)+r_-(\ln\tau)\ <\ D_{\max}(\tau,\varepsilon)^2\ <\ \Psi(\ln\tau)+r_+(\ln\tau).
+$$
+In particular $D_{\max}(\tau,\varepsilon)^2>4\Lambda(\ln\tau+\ln\ln\tau+1-\ln\Lambda)$ for all $\tau\ge e^3/\varepsilon$, a strict lower bound, and, at fixed $\varepsilon$ as $\tau\to\infty$,
+$$
+D_{\max}(\tau,\varepsilon)^2=4\Lambda\bigl(\ln\tau+\ln\ln\tau+1-\ln\Lambda\bigr)+\frac{4\Lambda\ln(T/\Lambda)+2\Lambda^2}{T}+O\!\Bigl(\frac{\ln^2T}{T^2}\Bigr),\qquad T=\ln\tau .
+$$
+So $\Phi(\tau)/(4\Lambda\ln\tau)\to1$, with remainder of order $\ln\ln\tau/\ln\tau$. For $1<\tau<\tau_0$ (the function $R$ is defined only for $\tau>1$, that is $T=\ln\tau>0$, because $\Psi$ contains $\ln T$) we have no proof that $R>0$; it holds on a grid in $T$ (computed, below). The statement is trivial wherever $\Psi(T)\le0$, since $D_{\max}^2>0$.
+
+*Proof.* Throughout $T\ge T_0$, so $\tau\ge e^3/\varepsilon$.
+
+*Step 1: two exact identities.* The first equation of Theorem 1 is $\lambda_0=\alpha\beta/((1-\alpha)(1+\beta))$, that is $1/(1-\alpha)=\lambda_0(1+\beta)/(\alpha\beta)$. Taking logarithms with $\ln\lambda_0=T+\Lambda$,
+$$
+x=T+\ln\frac{1+\beta}{\alpha\beta}.\tag{6.1}
+$$
+Solving the same equation for $\alpha$ gives $\alpha=\lambda_0(1+\beta)/(\lambda_0(1+\beta)+\beta)$, hence $1-\alpha=\beta/(\lambda_0(1+\beta)+\beta)\le\beta/\lambda_0$ and $0<-\ln\alpha=\ln\bigl(1+\beta/(\lambda_0(1+\beta))\bigr)\le\ln(1+1/\lambda_0)<1/\lambda_0=\varepsilon/\tau$.
+
+The second equation of Theorem 1, multiplied by $\alpha+\beta$, reads $\beta u-\alpha\ell_\beta=(\alpha+\beta)\Lambda$, that is
+$$
+\beta x=\alpha m.\tag{6.2}
+$$
+Hence $u+\ell_\beta=x+m=(\alpha/\beta+1)m=(\alpha+\beta)m/\beta$, and since $\ln\frac{1+\beta}{1-\alpha}=u+\ell_\beta$, Theorem 1 gives
+$$
+D_{\max}=\frac{2\sqrt{\alpha\beta}}{\alpha+\beta}\cdot\frac{(\alpha+\beta)m}{\beta}=2\sqrt{\frac\alpha\beta}\,\bigl(\Lambda+\ln(1+\beta)\bigr),\qquad D_{\max}^2=4\,m\cdot\frac{\alpha m}\beta=4mx=4(u-\Lambda)\bigl(\Lambda+\ln(1+\beta)\bigr).\tag{6.3}
+$$
+These two identities hold for every $\tau>1-\varepsilon$. (Computed: both hold to $10^{-40}$ at 50 digits for $\varepsilon\in\{0.99,0.9,0.5,0.1,10^{-3},10^{-6},10^{-12},10^{-30}\}$ and $T$ from $T_0$ to $10^6$, residuals at most $2\cdot10^{-43}$.)
+
+*Step 2: coarse bounds.* Since $\alpha<1$ we have $\alpha\beta<\beta<1+\beta$, so by (6.1) $x>T$. Since $\ell_\beta\le\beta$, (6.2) gives $\beta=\alpha m/x<(\Lambda+\beta)/T$, so
+$$
+\beta<\frac{\Lambda}{T-1}\le\frac\Lambda{2+\Lambda}<1\qquad(T\ge3+\Lambda).\tag{6.4}
+$$
+In particular $\beta<\min(1,\Lambda)$.
+
+*Step 3: the four-term split.* Eliminating $\ln\beta$ from (6.1) with (6.2), $-\ln\beta=\ln x-\ln m-\ln\alpha$, gives $x=T+\ln x+\ell_\beta-2\ln\alpha-\ln m$. Insert it in $D_{\max}^2=4mx=4\Lambda x+4\ell_\beta x$, with $\ln m=\ln\Lambda+\ln(1+\ell_\beta/\Lambda)$ in the first part and $\ell_\beta x=\alpha m\ell_\beta/\beta=m\ell_\beta/\beta-(1-\alpha)m\ell_\beta/\beta$ in the second. Subtracting $\Psi(T)$,
+$$
+R=4\Lambda\ln\frac xT+4g(\beta)-8\Lambda\ln\alpha-\frac{4(1-\alpha)(\Lambda+\ell_\beta)\ell_\beta}\beta,\tag{6.5}
+$$
+$$
+g(\beta)=\frac{(\Lambda+\ell_\beta)\ell_\beta}\beta-\Lambda+\Lambda\ell_\beta-\Lambda\ln\Bigl(1+\frac{\ell_\beta}\Lambda\Bigr).
+$$
+This is exact. (Computed: (6.5) holds to $10^{-40}$ on the grid below.) We bound the four terms in turn; write $\delta=\varepsilon/\tau$.
+
+*Term 1.* Put $s=x-T=\ln(1+1/\beta)-\ln\alpha$, so $\ln(x/T)=\ln(1+s/T)$. Lower bound: by (6.4), $1/\beta>(T-1)/\Lambda$, and $-\ln\alpha>0$, so
+$$
+s>\ln\Bigl(1+\frac{T-1}\Lambda\Bigr),\qquad \ln\frac xT>\ln\Bigl(1+\frac{\ln(1+(T-1)/\Lambda)}T\Bigr).
+$$
+Upper bound: by (6.2) and $m\ge\Lambda$, $1/\beta=x/(\alpha m)\le(T+s)/(\alpha\Lambda)$, and $1/\alpha\le1+\delta$ (Step 1). Since $1+c(1+\delta)\le(1+c)(1+\delta)$, $\ln(1+1/\beta)\le\ln(1+(T+s)/\Lambda)+\delta$. By concavity of the logarithm, $\ln(1+(T+s)/\Lambda)\le\ln(1+T/\Lambda)+s/(\Lambda+T)$. With $-\ln\alpha<\delta$ this gives $s\le\ln(1+T/\Lambda)+2\delta+s/(\Lambda+T)$, and since $\Lambda+T>1$,
+$$
+s\le\bar s,\qquad \ln\frac xT\le\frac sT\le\frac{\bar s}T .
+$$
+Also $\beta=\alpha m/x\ge\alpha\Lambda/(T+\bar s)$.
+
+*Term 2.* We show, for $0<\beta<1$ and with $\ell=\ell_\beta$,
+$$
+\frac{\Lambda\beta}2-\beta^2\Bigl(1+\frac\Lambda2\Bigr)\ \le\ g(\beta)\ \le\ \frac{\Lambda\beta}2+\beta^2\Bigl(\frac\Lambda3+\frac1{2\Lambda}\Bigr).\tag{6.6}
+$$
+Write $g=\ell^2/\beta+\Lambda(\ell-\beta)/\beta+\Lambda\ell-\Lambda\ln(1+\ell/\Lambda)$. For the lower bound use $\ell\ge\beta-\beta^2/2$, which gives $(\ell-\beta)/\beta\ge-\beta/2$, $\ell\ge\beta-\beta^2/2$ and $\ell^2/\beta\ge\beta(1-\beta)$ (because $(1-\beta/2)^2\ge1-\beta$), and $\Lambda\ln(1+\ell/\Lambda)\le\ell\le\beta$. Summing, $g\ge-\Lambda\beta/2+\Lambda\beta-\Lambda\beta^2/2-\beta+\beta-\beta^2$, which is the left side. For the upper bound use $\ell\le\beta-\beta^2/2+\beta^3/3$ and $\ln(1+y)\ge y-y^2/2$ with $y=\ell/\Lambda$, so $\Lambda\ln(1+\ell/\Lambda)\ge\ell-\ell^2/(2\Lambda)$. Then
+$$
+g\le\Bigl(\frac{\ell^2}\beta-\ell\Bigr)+\Lambda\Bigl(\ell\Bigl(1+\frac1\beta\Bigr)-1\Bigr)+\frac{\ell^2}{2\Lambda}.
+$$
+The first bracket is $-\ell(\beta-\ell)/\beta\le0$. In the second, $\ell(1+1/\beta)-1\le\beta/2-\beta^2/6+\beta^3/3\le\beta/2+\beta^2/3$ for $\beta<1$. The last term is at most $\beta^2/(2\Lambda)$. This is the right side.
+
+By (6.4), $\beta<\Lambda/(2+\Lambda)$, so the lower bound in (6.6) is positive: $g>0$. With $\beta<\Lambda/(T-1)$,
+$$
+4g\le\frac{2\Lambda^2}{T-1}+\frac{\bigl(\tfrac43\Lambda^3+2\Lambda\bigr)}{(T-1)^2},
+$$
+and, using $\beta\ge\alpha\Lambda/(T+\bar s)$ and $\alpha\ge1/(1+\delta)$,
+$$
+4g\ge2\Lambda\beta-(4+2\Lambda)\beta^2\ge\frac{2\Lambda^2}{(1+\delta)(T+\bar s)}-\frac{(4+2\Lambda)\Lambda^2}{(T-1)^2}.
+$$
+Since $g>0$ we may also replace the lower bound by its maximum with $0$.
+
+*Terms 3 and 4.* Together, $-8\Lambda\ln\alpha-4(1-\alpha)(\Lambda+\ell)\ell/\beta$. Since $-\ln\alpha\ge1-\alpha$ and $\ell\le\beta$, this is at least $8\Lambda(1-\alpha)-4(1-\alpha)(\Lambda+\beta)=4(1-\alpha)(\Lambda-\beta)\ge0$, because $\beta<\Lambda$. It is at most $-8\Lambda\ln\alpha<8\Lambda\delta$.
+
+*Step 4: assembly.* Adding the bounds on the four terms in (6.5), $r_-<R<r_+$: the left inequality is strict by the strict lower bound on $\ln(x/T)$, and the right one is strict because $\ln(x/T)<s/T\le\bar s/T$ and the upper bound of Terms 3 and 4 is strict (Terms 2 to 4 otherwise as above). This proves the two-sided bound. For the expansion, as $T\to\infty$ at fixed $\varepsilon$: $\bar s=\ln(T/\Lambda)+O(\ln T/T)$, so $4\Lambda\bar s/T=4\Lambda\ln(T/\Lambda)/T+O(\ln T/T^2)$; $2\Lambda^2/(T-1)=2\Lambda^2/T+O(T^{-2})$; the remaining terms of $r_+$ are $O(T^{-2})$. In $r_-$, $4\Lambda\ln(1+\ln(1+(T-1)/\Lambda)/T)=4\Lambda\ln(T/\Lambda)/T+O(\ln^2T/T^2)$ and the second part is $2\Lambda^2/T+O(\ln T/T^2)$. Both bounds agree to $O(\ln^2T/T^2)$. $\square$
+
+*Computed checks of Proposition 5* (`code/needle_limit.py`, parts G and H). On a grid of 64 points, $\varepsilon\in\{0.99,0.9,0.5,0.1,10^{-3},10^{-6},10^{-12},10^{-30}\}$ and eight values of $T$ from $T_0$ to $10^6$ (geometric spacing), $r_-<R<r_+$ holds at every point, as do all the intermediate claims above (the bounds on $x$, $\beta$, $g$, $\alpha$ and the two terms). The ratio $R/r_+$ is between $0.38$ and $0.58$ at $T=T_0$ and above $0.9999$ at $T=10^6$ for these $\varepsilon$. For example, at $\varepsilon=10^{-3}$: at $T_0=9.91$, $R=9.83$, $r_-=2.22$, $r_+=19.06$; at $T=10^4$, $R=0.029640$, $r_-=0.029631$, $r_+=0.029662$. Below $\tau_0$ (part H), $R>0$ at every point of the grid $T_k=kT_0/400$, $k=1,\dots,400$ (so $T\in(0,T_0]$, that is $\tau\in(1,\tau_0]$; the grid is in $T=\ln\tau$, not in $\tau$) for $\varepsilon\in\{0.9,0.1,10^{-3},10^{-6},10^{-12},10^{-30}\}$; the smallest value on each grid sits at $T_0$. This is computed, not proved.
+
+**Corollary 6 (needle limit, proved).** Let $d\ge d_0:=D_{\max}(e^3/\varepsilon,\varepsilon)$, $T_F=\ln F_\varepsilon(d)$ and $y=d^2/(4\Lambda)$. Put $\rho=R(F_\varepsilon(d))/(4\Lambda)$ and $b=\ln T_F+1-\ln\Lambda$. Then, exactly,
+$$
+F_\varepsilon(d)=\frac{4\Lambda^2}{e\,d^2}\,e^{\,d^2/(4\Lambda)}\,Q,\qquad Q=e^{-\rho}\Bigl(1+\frac{b+\rho}{T_F}\Bigr),
+$$
+and, with $\rho_\pm=r_\pm(T_F)/(4\Lambda)$ and $q(r)=e^{-r}(1+(b+r)/T_F)$,
+$$
+q(\rho_+)\le Q\le q(\rho_-),\qquad Q=1+\frac{1-\Lambda/2}{T_F}+O\!\Bigl(\frac{\ln^2T_F}{T_F^2}\Bigr).
+$$
+Consequently, as $d\to\infty$ at fixed $\varepsilon$,
+$$
+F_\varepsilon(d)=\frac{4\Lambda^2}{e\,d^2}\,e^{\,d^2/(4\Lambda)}\Bigl(1+\frac{4\Lambda(1-\Lambda/2)}{d^2}+O\!\Bigl(\frac{\ln^2d}{d^4}\Bigr)\Bigr).
+$$
+
+*Proof.* By Lemma 2, $F_\varepsilon$ is increasing and $D_{\max}(F_\varepsilon(d),\varepsilon)=d$, so $d\ge d_0$ gives $F_\varepsilon(d)\ge e^3/\varepsilon$, that is $T_F\ge T_0$, and the proposition applies at $T_F$. By definition of $R$, $d^2=\Psi(T_F)+4\Lambda\rho$, so $y=T_F+b+\rho$. Then $e^{-b}=\Lambda/(eT_F)$ and
+$$
+F_\varepsilon(d)=e^{T_F}=e^{\,y-b-\rho}=\frac{\Lambda}{eT_F}e^{y}e^{-\rho}=\frac{\Lambda}{ey}e^{y}\cdot e^{-\rho}\frac y{T_F},
+$$
+with $\Lambda/y=4\Lambda^2/d^2$ and $y/T_F=1+(b+\rho)/T_F$. This is the exact form. For fixed $T_F$ and $b$, $\partial_rq(r)=-e^{-r}\bigl(T_F+\ln T_F-\ln\Lambda+r\bigr)/T_F<0$ for $r\ge0$, because $T_F>\Lambda$ gives $\ln T_F>\ln\Lambda$ (and $T_F\ge3$ makes the other terms positive); so $q$ is decreasing, and $r_-<4\Lambda\rho<r_+$ gives $q(\rho_+)\le Q\le q(\rho_-)$. For the expansion, Proposition 5 gives $\rho=(\ln(T_F/\Lambda)+\Lambda/2)/T_F+O(\ln^2T_F/T_F^2)$, so $Q=1-\rho+b/T_F+O(\ln^2T_F/T_F^2)=1+(1-\Lambda/2)/T_F+O(\ln^2T_F/T_F^2)$. Finally $y/T_F=1+O(\ln y/y)$ gives $1/T_F=(1/y)(1+O(\ln y/y))$ and $y=d^2/(4\Lambda)$ gives the last display. $\square$
+
+*Computed check* (`code/needle_limit.py`, part I). The exact form holds to $10^{-40}$ at 50 digits at nine pairs $(\varepsilon,d)$ with $d\ge d_0$ ($\varepsilon=0.1,10^{-3},10^{-12}$), and $q(\rho_+)\le Q\le q(\rho_-)$ at each. At $\varepsilon=0.1$, $d=295$: $Q=0.999984$, and $1+(1-\Lambda/2)/T_F=0.999984$ with $T_F=9439.3$. At $\varepsilon=10^{-3}$, $d=884$: $Q=0.99991$. These agree with the ratios of the earlier large-clock computation ($0.99998$ and $0.99991$).
+
+**Remark (the factor $e$; proved, with one computed part).** The constant-speed curve $a\equiv2\sqrt{k-1}$ has length $2\Lambda\sqrt{k-1}$ and clock $\varepsilon(e^{k\Lambda}-1)/k$ (Section 6.1). At length $d$, $k=1+d^2/(4\Lambda^2)$, and since $\varepsilon e^{\Lambda}=1$ its clock is
+$$
+\tau_c(d)=\frac{4\Lambda^2}{4\Lambda^2+d^2}\bigl(e^{\,d^2/(4\Lambda)}-\varepsilon\bigr).
+$$
+It is admissible, so $\tau_c\ge F_\varepsilon(d)$. By Corollary 6 (the exact form holds for $d\ge d_0$; the identity in fact holds whenever $T_F>0$) the ratio is exactly
+$$
+\frac{\tau_c(d)}{F_\varepsilon(d)}=\frac{e\,\bigl(1-\varepsilon e^{-d^2/(4\Lambda)}\bigr)}{(1+4\Lambda^2/d^2)\,Q}\ \longrightarrow\ e\qquad(d\to\infty),
+$$
+so at the same excursion the constant-speed curve needs asymptotically $e$ times more clock than the sharp extremal. The extremal's initial speed is nearly the constant speed: from $a=c/\lambda$, $c=2\sqrt{r_+r_-}$, $r_+=\lambda_0/\alpha$, $r_-=\lambda_0/\beta$, and (6.3), exactly
+$$
+\frac{a(0)\Lambda}{D_{\max}}=\frac{\Lambda}{\alpha(\Lambda+\ln(1+\beta))}\in\Bigl[\frac\Lambda{\Lambda+\beta},\frac1\alpha\Bigr],
+$$
+which tends to $1$ because $\beta\to0$ and $\alpha\to1$. That $a\Lambda/D_{\max}\to1$ uniformly on $[0,\Lambda-\delta]$ for every $\delta>0$, so that the whole saving sits in a layer of width of order $\beta$ at the cut, is computed only (`code/needle_limit.py`, part E, at $\varepsilon=10^{-3}$), not proved. The exact identity of the ratio above (to $10^{-40}$) is checked in part I.
+
+**Remark (physical reading; follows from Proposition 5).** The conformal 2-metric is unimodular, so moving a hyperbolic distance $d$ from the cap's cross-section changes its shape, relative to the cap's shape, by an ellipse of axis ratio $e^{-d}$ (when the cap cross-section is round, the new cross-section is itself an ellipse of axis ratio $e^{-d}$; for $\bar q=\operatorname{diag}(e^{z},e^{-z})$ the hyperbolic metric is $dz^2$). Proposition 5 gives $D_{\max}(\tau,\varepsilon)=2\sqrt{\Lambda\ln\tau}\,(1+o(1))$, so, relative to the cap's shape, a cross-section reachable within normalised affine length $\tau\rho_S$ is at most as thin as $\exp\bigl(-2\sqrt{\Lambda\ln\tau}\bigr)$ to leading order in the exponent (the excursion is below $D_{\max}$, so this bounds the thinning from one side only). By Corollary 6 each further factor of thinning costs a clock that grows like the exponential of a square, $\exp(d^2/(4\ln(1/\varepsilon)))$. The asymptotic regime begins when $\ln\tau$ is large against $\Lambda$ (in Corollary 6, $d\ge d_0$, and $d_0^2>\Psi(T_0)>4\Lambda(3+\Lambda)$).
+
+**Lemma 7 (the ratio limit; proved, with one computed check).** Let $\hat\Phi$ be the least concave majorant of $\Phi=D_{\max}(\cdot,\varepsilon)^2$ on $[1-\varepsilon,\infty)$ (Section 6.1). Then $\Psi(\ln\tau)<\hat\Phi(\tau)\le\Psi(\ln\tau)+C$ for $\tau\ge\tau_0$, with a constant $C=C(\varepsilon)$. Hence $\hat\Phi(\tau)/(4\Lambda\ln\tau)\to1$ as $\tau\to\infty$, and the ratio of the bound (D.52b) to the sharp patch bound of Proposition 4 (sharp where $\hat\Phi=\Phi$, and asymptotically sharp in ratio) satisfies
+$$
+\frac{8e(1-\varepsilon)(A_P/\varepsilon)\bigl[1+\ln(A^*/A_P)\bigr]}{2A_P\,\hat\Phi\bigl((1-\varepsilon)A^*/A_P\bigr)}\ \longrightarrow\ \frac{e\,(1-\varepsilon)}{\varepsilon\ln(1/\varepsilon)}\qquad(A^*/A_P\to\infty).
+$$
+
+*Proof.* As a function of $\tau>1$, $\Psi(\ln\tau)$ is increasing and concave: with $T=\ln\tau$, $\frac{d}{d\tau}\Psi=4\Lambda(1+1/T)/\tau>0$, and $\frac{d}{d\tau}\bigl[(1+1/T)/\tau\bigr]=-\bigl(1/T^2+1+1/T\bigr)/\tau^2<0$. Let $\tilde\Psi(\tau)=\Psi(\ln\tau)$ for $\tau\ge\tau_0$ and, for $\tau<\tau_0$, the tangent line $L$ of $\Psi(\ln\tau)$ at $\tau_0$. Then $\tilde\Psi$ is concave on $[1-\varepsilon,\infty)$ (a concave function continued by its tangent line, with equal slopes at the joint) and increasing. By Proposition 5, $\Phi\le\Psi(\ln\tau)+r_+(\ln\tau)$ for $\tau\ge\tau_0$, and $r_+$ is continuous on $[T_0,\infty)$ with $r_+\to0$, so $C_1=\sup_{T\ge T_0}r_+(T)<\infty$. For $\tau<\tau_0$, $\Phi(\tau)\le\Phi(\tau_0)$ since $\Phi$ is increasing, and $L(\tau)\ge L(1-\varepsilon)$ since $L$ is increasing, so with $C=\max\bigl(C_1,\ \Phi(\tau_0)-L(1-\varepsilon)\bigr)$ we get $\Phi\le\tilde\Psi+C$ on $[1-\varepsilon,\infty)$. The function $\tilde\Psi+C$ is concave, hence $\Phi\le\hat\Phi\le\tilde\Psi+C$ by minimality of $\hat\Phi$. Also $\hat\Phi\ge\Phi>\Psi(\ln\tau)$ for $\tau\ge\tau_0$ by Proposition 5. So $\Psi(\ln\tau)<\hat\Phi(\tau)\le\Psi(\ln\tau)+C$ for $\tau\ge\tau_0$, and $\Psi(\ln\tau)=4\Lambda\ln\tau\,(1+O(\ln\ln\tau/\ln\tau))$ gives $\hat\Phi\sim4\Lambda\ln\tau$.
+
+For the limit put $x=(1-\varepsilon)A^*/A_P\to\infty$, so $1+\ln(A^*/A_P)=\ln x+1-\ln(1-\varepsilon)\sim\ln x$. The displayed ratio equals $4e(1-\varepsilon)\bigl(1+\ln(A^*/A_P)\bigr)/(\varepsilon\,\hat\Phi(x))\sim4e(1-\varepsilon)\ln x/(\varepsilon\cdot4\Lambda\ln x)=e(1-\varepsilon)/(\varepsilon\Lambda)$. $\square$
+
+*Computed check* (`code/needle_limit.py`, part J). With $\Phi$ in place of $\hat\Phi$ (asymptotically equal by the lemma: $\hat\Phi/\Phi$ tends to $1$), the ratio at $\ln x=10^2,10^4,10^6,10^9$ is $382.77,392.83,393.113,393.118$ at $\varepsilon=10^{-3}$, against the limit $393.118$ (relative error $2\cdot10^{-8}$ at $10^9$); for $\varepsilon=0.1$ and $0.01$ the limits are $10.625$ and $58.436$ (finite-range values $9$ and $54$ in Section 6.1). The script also checks the majorant $\tilde\Psi+C$ of $\Phi$ on a grid at $\varepsilon=10^{-3}$ ($C=40.25$).
+
+**Remark (not claimed: $R>0$ for all $\tau\ge e^2$).** The proof of Proposition 5 uses $\tau\ge\tau_0$ for two things only: $g>0$ (through (6.6)) and $\beta<\Lambda$ (Terms 3 and 4, which need only $\ell_\beta\le\Lambda$). If $g(\beta)>0$ were proved for every $\beta>0$, then by (6.4) (valid for $T>1$, and $\beta<\Lambda/(T-1)\le\Lambda$ for $T\ge2$) all four terms of (6.5) would be nonnegative with a positive first term, so $R>0$ would follow for every $\tau\ge e^2$, independently of $\varepsilon$. We do not prove that $g>0$. A numerical scan by a reviewer (over $\Lambda\in[10^{-3},70]$, $\beta\in[10^{-4},10^4]$; not part of the script) finds $g>0$ over the ranges tried, but until $g>0$ is proved, the statement $R>0$ for $\tau<\tau_0$ stays computed, as labelled above.
+
+**Prior work.** Searched for an asymptotic of the maximal conformal (shear) excursion along an expanding null generator, and for sharp large-affine-length bounds on the shear integral or the hyperbolic-plane excursion of null congruences. Sources: the arXiv API (eight query combinations on shear, null congruence, null generator, affine length, hyperbolic plane, Raychaudhuri, conformal 2-metric) and Crossref (several free-text queries). Abstracts only; nothing was paid for or downloaded in full. Result: none of the returned works states a sharp inequality between affine length and hyperbolic excursion, or a large-clock asymptotic of it. The nearest hits, by abstract only: arXiv:2504.10802 (quantum geometry of the light cone, $SU(1,1)$ current algebra of the shear; abstract read, full text not consulted; a different quantity); arXiv:2303.08960 (kinematics of congruences in metric-affine geometry, generalised Raychaudhuri and Sachs equations; abstract read, full text not consulted; no bounds of this kind); doi:10.3390/particles1010017 (effective null Raychaudhuri equation with discreteness; abstract read, full text not consulted); doi:10.1063/5.0003616 (asymptotic shear and conformal geometry of null infinity; title only, abstract not read). Chandrasekaran, arXiv:2611.34924, Appendix D, remains the only antecedent we know, with a bound that is not sharp. Read status of every source: abstract only or title only, none in full. Hence, to our knowledge, in the sources we could consult, the large-clock asymptotics and the needle limit of this constant are new. This is a search of abstracts, not a literature review.
 
 ## The clock does not bound the shear energy of Appendix D.3 {#p8.gap}
 
@@ -214,7 +369,7 @@ We do not treat the quantum problem. A bound of the form $\hat\tau-F_\varepsilon
 
 # Checks and related work {#p8.checks}
 
-Six scripts in `code/` reproduce Section 2, Theorem 1 (quadratures to $10^{-15}$), convexity of $F_\varepsilon$, Table 1, Proposition 2 and the computed statements of Section 6 and Figure 1 (`code/REPRODUCE.md`). The sharpness statements (Theorems 1 and 3, Proposition 4) are over characteristic data with a free conformal curve per generator, smooth at the cone; we do not address existence of the vacuum development up to the cut, and the extremal has $\Xi(1)=\infty$ (stated above). The operator analogue of Theorem 3 is open (no operator inequality is known to us).
+Seven scripts in `code/` reproduce Section 2, Theorem 1 (quadratures to $10^{-15}$), convexity of $F_\varepsilon$, Table 1, Proposition 2, the computed statements of Section 6 (including the checks of Proposition 5 and Corollary 6 in `needle_limit.py`) and Figure 1 (`code/REPRODUCE.md`). The sharpness statements (Theorems 1 and 3, Proposition 4) are over characteristic data with a free conformal curve per generator, smooth at the cone; we do not address existence of the vacuum development up to the cut, and the extremal has $\Xi(1)=\infty$ (stated above). The operator analogue of Theorem 3 is open (no operator inequality is known to us).
 
 Christodoulou [Chr08], Klainerman and Rodnianski [KR09] and An and Luk [AL14] use $\int|\hat\chi|^2$ against the expansion to prove trapped-surface formation from small conformal data; they state no inequality between affine length and hyperbolic excursion (our extremal with zero expansion at the cut is the threshold case). Wieland [Wie24, Wie25] bounds shear through the $SU(1,1)$ structure, a different quantity; [CFL23] uses the Beltrami parametrisation. Characteristic initial value problems for the Einstein equations are treated in [Rend90, Luk12, CCM11]. The trapped-surface results of [KLR14] extend [Chr08]. The nonlinear memory effect is that of [Chr91]. We found no statement of Theorems 1 or 3 beyond [Cha26, Appendix D].
 
@@ -222,7 +377,7 @@ Christodoulou [Chr08], Klainerman and Rodnianski [KR09] and An and Luk [AL14] us
 
 # Code and data {#p8.code .unnumbered}
 
-The six Python scripts with their logs, the reproduction notes and the Lean 4 formalisation of the core inequality of Theorem 1 are archived at <https://github.com/mik-tf/null-cone-affine-length> and on Zenodo, <https://doi.org/10.5281/zenodo.24572220> (concept DOI, all versions). `code/REPRODUCE.md` explains how to reproduce each result.
+The seven Python scripts with their logs, the reproduction notes and the Lean 4 formalisation of the core inequality of Theorem 1 are archived at <https://github.com/mik-tf/null-cone-affine-length> and on Zenodo, <https://doi.org/10.5281/zenodo.24572220> (concept DOI, all versions). `code/REPRODUCE.md` explains how to reproduce each result.
 
 # Acknowledgements {#p8.ack .unnumbered}
 
